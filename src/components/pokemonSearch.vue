@@ -1,3 +1,4 @@
+<!-- Inicialização de SearchBar -->
 <template>
   <div class="searchbar">
     <form @submit.prevent="setPokemonUrl">
@@ -7,6 +8,7 @@
   </div>
 </template>
 
+<!-- Consumo de API, busca de valores e datas -->
 <script>
   export default {
     props: [
@@ -26,6 +28,7 @@
   }
 </script>
 
+<!-- aba CSS SearchBar -->
 <style lang="scss" scoped>
   .searchbar {
     position: relative;

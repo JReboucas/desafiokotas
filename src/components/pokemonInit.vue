@@ -1,3 +1,4 @@
+<!-- Inicialização do app, atributos e metodos -->
 <template>
   <div class="container">
     <h1>Pokemon desafio kotas</h1>
@@ -16,6 +17,7 @@
   </div>
 </template>
 
+<!-- consumo da API pokeapi e importação de outras datas -->
 <script>
   import PokemonSearch from './pokemonSearch.vue';
   import PokemonList from './pokemonList.vue';
@@ -47,6 +49,7 @@
   }
 </script>
 
+<!-- CSS da divisão dos conteiners, font escolhida, cores do background -->
 <style lang="scss" scoped>
   @import url('https://fonts.googleapis.com/css?family=Acme');
   .container {

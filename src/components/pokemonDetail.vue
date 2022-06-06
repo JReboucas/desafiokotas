@@ -1,3 +1,4 @@
+<!-- inicialização da aba de detalhes e consumo da API -->
 <template>
   <div class="detail">
     <div class="detail-view" v-if="show">
@@ -42,6 +43,7 @@
   </div>
 </template>
 
+<!-- Inicio de busca da URL, metodo FethData  -->
 <script>
   export default {
     props: [
@@ -80,6 +82,7 @@
   }
 </script>
 
+<!-- aba CSS do Container de detalhes, cores da font, tamanho de imagem, detalhes da coluna e texto -->
 <style lang="scss" scoped>
   .detail {
     display: flex;

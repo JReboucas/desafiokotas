@@ -1,3 +1,4 @@
+<!-- codigo da listagem, inicialização do scroll view, tamanho de imagem -->
 <template>
   <div class="list">
     <article v-for="(pokemon, index) in pokemons"
@@ -12,6 +13,7 @@
   </div>
 </template>
 
+<!-- Consumo de API, datas de URL e listagem de até 200 pokemons, uso de FetchData e codigo de Scroll view -->
 <script>
   export default {
     props: [
@@ -73,6 +75,7 @@
   }
 </script>
 
+<!-- Aba CSS Scroll view -->
 <style lang="scss" scoped>
   .list {
     display: grid;
