@@ -49,7 +49,7 @@
   }
 </script>
 
-<!-- CSS da divisão dos conteiners, font escolhida, cores do background -->
+<!-- CSS da Background, fonts, cores do background -->
 <style lang="scss" scoped>
   @import url('https://fonts.googleapis.com/css?family=Acme');
   .container {
